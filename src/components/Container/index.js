@@ -1,13 +1,15 @@
 import React from 'react';
 
-import './styles.css';
+import './styles';
 
 class Container extends React.Component{
-    render(){
+    render(props){
         return(
-            <div className="container">
-                Hello World
+            <div className={props.className}>
+                
             </div>
         );
     }
 }
+
+export default Container;
