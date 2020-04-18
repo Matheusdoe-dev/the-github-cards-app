@@ -2,7 +2,7 @@ import React from 'react';
 // elementos
 import Container from './../../styles/containers/container';
 // componentes
-import CardList from './../../components/CardList/index';
+import Form from './../../components/Form/index';
 import Header from './../../components/Header/index';
 
 
@@ -12,7 +12,7 @@ class Profiles extends React.Component {
       <Container>
           <Header />
 
-          <CardList />
+          <Form />
       </Container>
     );
   }
