@@ -3,9 +3,9 @@ import React from 'react';
 import './styles';
 
 class Container extends React.Component{
-    render(props){
+    render(){
         return(
-            <div className={props.className}>
+            <div className={this.props.className}>
                 
             </div>
         );
